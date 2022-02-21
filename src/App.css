@@ -47,9 +47,27 @@ body {
 }
 
 .container {
-  width: 300px;
+  width: 400px;
   background: var(--clr-white);
-  padding: 20px 10px;
+  padding: 20px 30px;
   border-radius: 7px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+  margin: 0;
+}
+
+.container button {
+  color: var(--clr-white);
+  display: block;
+  cursor: pointer;
+  background-color: var(--clr-pink);
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 0.1rem;
 }
