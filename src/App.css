@@ -29,6 +29,9 @@
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
   --clr-pink: #f28ab2;
+
+  --spacing: 0.1rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -54,8 +57,15 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-h3 {
-  margin: 0;
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
 }
 
 .container button {
@@ -69,5 +79,5 @@ h3 {
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.5rem 0;
-  letter-spacing: 0.1rem;
+  letter-spacing: var(--spacing);
 }
